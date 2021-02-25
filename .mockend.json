@@ -1,13 +1,348 @@
 {
-    "Post": {
-      "title": "string",
-      "views": "int",
-      "published": "boolean",
-      "createdAt": "date",
-      "comments": "Comment[]"
+    "data": {
+        "active": {
+            "regions": [
+                {
+                    "name": "APAC",
+                    "countries": [
+                        {
+                            "name": "Thailand",
+                            "sites": [
+                                {
+                                    "id": 123,
+                                    "days": [
+                                        {
+                                            "date": "26-02-2021",
+                                            "fields": [
+                                                {
+                                                    "type": "missing",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "closed",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "processing",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "error",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "warehouse",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "ledger",
+                                                    "value": false
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "name": "1835 - MCT LSA"
+                                },
+                                {
+                                    "id": 124,
+                                    "days": [
+                                        {
+                                            "date": "26-02-2021",
+                                            "fields": [
+                                                {
+                                                    "type": "missing",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "closed",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "processing",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "error",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "warehouse",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "ledger",
+                                                    "value": false
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "name": "1836 - MCT ASD"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Singapore",
+                            "sites": [
+                                {
+                                    "id": 134,
+                                    "days": [
+                                        {
+                                            "date": "26-02-2021",
+                                            "fields": [
+                                                {
+                                                    "type": "missing",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "closed",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "processing",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "error",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "warehouse",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "ledger",
+                                                    "value": false
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "name": "1930 - Budaiya Village"
+                                },
+                                {
+                                    "id": 156,
+                                    "days": [
+                                        {
+                                            "date": "26-02-2021",
+                                            "fields": [
+                                                {
+                                                    "type": "missing",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "closed",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "processing",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "error",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "warehouse",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "ledger",
+                                                    "value": false
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "name": "1932 - Exibhition Road"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "inactive": {
+            "regions": [
+                {
+                    "name": "MET",
+                    "countries": [
+                        {
+                            "name": "Bharain",
+                            "sites": [
+                                {
+                                    "id": 123,
+                                    "days": [
+                                        {
+                                            "date": "26-02-2021",
+                                            "fields": [
+                                                {
+                                                    "type": "missing",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "closed",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "processing",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "error",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "warehouse",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "ledger",
+                                                    "value": false
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "name": "1933 - Manama - Church road"
+                                },
+                                {
+                                    "id": 187,
+                                    "days": [
+                                        {
+                                            "date": "26-02-2021",
+                                            "fields": [
+                                                {
+                                                    "type": "missing",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "closed",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "processing",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "error",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "warehouse",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "ledger",
+                                                    "value": false
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "name": "1936 - Rameez"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oman",
+                            "sites": [
+                                {
+                                    "id": 154,
+                                    "days": [
+                                        {
+                                            "date": "26-02-2021",
+                                            "fields": [
+                                                {
+                                                    "type": "missing",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "closed",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "processing",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "error",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "warehouse",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "ledger",
+                                                    "value": false
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "name": "1835 - MCT LSD"
+                                },
+                                {
+                                    "id": 132,
+                                    "days": [
+                                        {
+                                            "date": "26-02-2021",
+                                            "fields": [
+                                                {
+                                                    "type": "missing",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "closed",
+                                                    "value": true
+                                                },
+                                                {
+                                                    "type": "processing",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "error",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "warehouse",
+                                                    "value": false
+                                                },
+                                                {
+                                                    "type": "ledger",
+                                                    "value": false
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "name": "1836 - MCT ASD(North)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "pagination": {
+            "end": 100,
+            "start": 1,
+            "total": 1500,
+            "current": 100
+        }
     },
-    "Comment": {
-      "body": "string",
-      "post": "Post"
-    }
-  }
+    "region":[
+        "APAC",
+        "MET"
+    ],
+    "Country": [
+        "Thailand",
+        "Singapore",
+        "Bharain",
+        "Oman"
+    ],
+    "SiteName": [
+        "1835 - MCT LSA",
+        "1836 - MCT ASD",
+        "1930 - Budaiya Village",
+        "1932 - Exibhition Road",
+        "1933 - Manama - Church road",
+        "1936 - Rameez",
+        "1835 - MCT LSD",
+        "1836 - MCT ASD(North)"
+        ]
+}
